@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e45aed2ce38a6154ab2e9fd52b762161, type: 3}
+  m_Name: Game
+  m_EditorClassIdentifier: 
+  shieldTime: 1
+  gunPower: 0
+  gunCooldownTime: 0
+  astroidsStartCount: 4
+  addedAstroidsPerLevel: 1
+  spawnPositions:
+  - x: 0.16
+    y: 0.19
+  - x: 0.77
+    y: 0.8
+  - x: 0.45
+    y: 0.45
+  - x: 0.14
+    y: 0.87
+  - x: 0.89
+    y: 0.23
+  - x: 0.11
+    y: 0.57
+  - x: 0.33
+    y: 0.66
+  - x: 0.69
+    y: 0.47
+  enemyPaths:
+  - points:
+    - x: 0
+      y: 0.5
+    - x: 0.3
+      y: 0.9
+    - x: 0.76
+      y: 0.1
+    - x: 1
+      y: 0.54
+  spawnEnemyShipTimer: 5
+  astroidScores: 640000003200000014000000
+  enemyShipScore: 200
